@@ -1,0 +1,20 @@
+{
+    "name": "geertclerx/teamleader-connector",
+    "description": "Teamleader API connector for Saloon.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Geertclerx\\TeamleaderConnector\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "geertclerx",
+            "email": "geert.clerx@gmail.com"
+        }
+    ],
+    "require": {
+        "saloonphp/saloon": "^3.14"
+    }
+}
